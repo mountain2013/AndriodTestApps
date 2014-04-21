@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Uplaod photo to flickr automatically"
+        android:textColor="#000000"
+        android:textSize="18sp" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="10dp"
+            android:background="#FF909090" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="1.Take one photo and upload it:"
+            android:textColor="#000000"
+            android:textSize="16sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/takePhotoBt"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button3"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="take photo"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="10dp"
+            android:background="#FF909090" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="2.Take multiple photos automatically:"
+            android:textColor="#000000"
+            android:textSize="16sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Take photo frequency"
+            android:textColor="#000000"
+            android:textSize="15sp" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:drawSelectorOnTop="true"
+            android:prompt="@string/spinner_upload_frequency" />
+
+        <Button
+            android:id="@+id/previewBt"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button3"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Start"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="10dp"
+            android:background="#FF909090" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="3.You can change an account:"
+            android:textColor="#000000"
+            android:textSize="16sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/switchBt"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button3"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Logout"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginBt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button3"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Login to flickr"
+        android:textSize="15sp" />
+
+</LinearLayout>

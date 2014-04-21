@@ -1,0 +1,92 @@
+﻿ HTML {
+	        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+        }
+        BODY {
+			height: 100%; width: 100%;padding: 0px;  font-family: arial,"宋体"; 
+	        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+        }
+        DIV {
+	        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+        }
+        H1 {
+	        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+        }
+        H2 {
+	        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+        }
+        H3 {
+	        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+        }
+        H4 {
+	        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+        }
+        H5 {
+	        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+        }
+        H6 {
+	        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+        }
+        P {
+	        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+        }
+        
+       
+
+	B {
+	        height: 100%; padding: 0px; margin: 0px; font-family: arial,"宋体"; ; 
+        }
+	LI {
+	        margin: 3px; 
+        }
+	A {
+			text-decoration:none;color: blue; 
+        }
+
+        #wrapper {
+            width: 100%; height: 100%; text-align: center; background-image:url(file:///android_asset/bg_wrapper.png); background-repeat: no-repeat; background-position: center top;
+        }
+        
+        #header {
+        	width: 100%; height: 60px; padding-top: 25px;
+        }
+        #header span {
+        	font-size: 18px;
+        }
+        #header H1 {
+            font-family: 微软雅黑; font-size: 24px; color: #434343;
+        }
+        
+        #content {
+        	width: 100%; text-align: left;
+        }
+        .section {
+        	margin: 25px 10px 0px 10px;
+        }
+        .section_name {
+            border-bottom: solid 1px #bcbcbc; height: 24px;
+        }
+        .section_name H3 {
+        	font-family: 微软雅黑; font-size: 20px; color: #6c6c6c;
+        }
+        .section_content {
+            padding-top: 10px; padding-bottom: 10px;
+        }
+        .section_content p {
+        	text-indent: 1em; line-height: 1em; 
+        }
+        .section_content p strong {
+        	font-family: 微软雅黑; color: Blue;
+        }
+        .section_content b {
+        	color: Red;
+        }
+        .section_content h4 {
+        	margin-top: 5px; margin-bottom:5px; font-family: 幼圆; font-size: 18px;
+        }
+        .section_content a {
+            font-family: Verdana; color: Blue;
+        }
+        
+        #footer {
+        	width: 100%; height: 90px; background-image:url(file:///android_asset/bg_footer.png); background-repeat: no-repeat; background-position: center right;
+        }

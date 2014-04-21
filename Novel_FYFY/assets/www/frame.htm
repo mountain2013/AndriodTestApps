@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+ <meta name="viewport" content="width=320; user-scalable=no" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<head>
+	 <link rel="stylesheet" href="jquery.mobile/jquery.mobile-1.0rc2.css" type="text/css" charset="utf-8" />
+	  <link rel="stylesheet" href="pgandjqm-style-override.css" type="text/css" charset="utf-8" />
+	  <script type="text/javascript" src="jquery.mobile/jquery-1.6.4.min"></script>
+	  <script type="text/javascript" charset="utf-8" src="phonegap-1.1.0.js"></script>
+	  <script src="jquery.mobile/jquery.mobile-1.0rc2.js"></script>
+	  <script type="text/javascript" charset="utf-8" src="main.js"></script>
+</head>
+
+<body>
+	<div data-role="page" data-theme="b">
+		<div data-role="header">
+			<div width="100%">
+				<table width="100%">
+					<tr>
+						<TD width="33%" align=center>
+							<div data-role="button" id="last">上一页</div>
+						</td>
+						<td width="33%" align=center>
+							<div data-role="button" id="index">目录</div>
+						</td>
+						<td width="33%" align=center>
+							<div data-role="button" id="next">下一页</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div data-role="content">
+			<iframe src="index.htm" id="myFrame" frameborder=0 height=90%
+				width=100%> </iframe>
+		</div>
+	</div>
+</body>
+</html>

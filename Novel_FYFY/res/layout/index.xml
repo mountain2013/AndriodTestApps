@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:layout_weight="1">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <WebView
+            android:id="@+id/id_mainweb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </WebView>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:umadsdk="http://schemas.android.com/apk/res/com.hetao.novel.fyfy"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+        <!-- umadsdk:textColor  广告文本颜色[只对文字广告有效] -->
+        <!-- umadsdk:backgroundColor  广告背景颜色[只对文字广告有效] -->
+        <!-- umadsdk:backgroundTransparent  广告背景透明度[只对文字广告有效] 范围是0到255[0表示完全透明,255表示完全不透明] -->
+
+        <net.youmi.android.AdView
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            umadsdk:backgroundColor="#4076AA"
+            umadsdk:backgroundTransparent="255"
+            umadsdk:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>
