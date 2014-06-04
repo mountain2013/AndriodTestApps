@@ -81,7 +81,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:backgroundColor
+          @attr name com.hetao.novel.fyfy:backgroundColor
         */
         public static final int net_youmi_android_AdView_backgroundColor = 0;
         /**
@@ -97,7 +97,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:backgroundTransparent
+          @attr name com.hetao.novel.fyfy:backgroundTransparent
         */
         public static final int net_youmi_android_AdView_backgroundTransparent = 2;
         /**
@@ -114,7 +114,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:textColor
+          @attr name com.hetao.novel.fyfy:textColor
         */
         public static final int net_youmi_android_AdView_textColor = 1;
     };
